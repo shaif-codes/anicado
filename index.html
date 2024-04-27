@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>𝓪𝓷𝓲𝓬𝓪𝓭𝓸</title>
+    <link
+      rel="shortcut icon"
+      href="/image/1712344368161.jpg"
+      type="image/x-icon" />
+    <style>
+      * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+        text-transform: capitalize;
+        text-decoration: none;
+      }
+      .container {
+        background-image: url(./image/background.jpg);
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+      }
+      .nav {
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+      .logo {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(254, 254, 254);
+        height: 50px;
+        width: 100%;
+        align-items: center;
+      }
+      .logo .buttons {
+        margin-left: 650px;
+      }
+      .buttons {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .buttons a {
+        margin-top: 10px;
+      }
+      .logo a {
+        margin-left: 30px;
+      }
+      .logo a:hover,
+      .buttons a:hover {
+        text-decoration: underline;
+      }
+      .card {
+        width: 300px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin: 20px;
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .card-content {
+        padding: 20px;
+      }
+
+      .card-title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+
+      .card-description {
+        font-size: 1rem;
+        color: #666;
+      }
+      .carousel {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+      }
+      .card img {
+        width: 300px;
+        height: 300px;
+      }
+      .herosection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .left {
+        margin-left: 100px;
+        width: 600px;
+      }
+      .right {
+        margin-right: 150px;
+      }
+      h4 {
+        width: 400px;
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: 25px;
+        color: rgb(50, 46, 52);
+      }
+      h1 {
+        color: rgb(50, 46, 52);
+        font-size: 50px;
+      }
+      .about {
+        width: 96.5%;
+        height: 300px;
+        background-color: rgb(130, 165, 229);
+        border-radius: 8px;
+        margin-left: 21px;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        color: whitesmoke;
+      }
+      .right-about , .left-about{
+        width: 373px;
+      }
+      .right-about h2 , .left-about h2{
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      .right-about p , .left-about p{
+        text-align: justify;
+      }
+      .footer{
+        width: 100%;
+        height:150px;
+        background-color: #282727;
+        color: whitesmoke;
+        
+      }
+      .footer h2{
+        padding-top: 40px;
+        text-align: center;
+
+      }
+      .footer li , p{
+        list-style: none;
+        text-align: center;
+
+      }
+      .video{
+        width: 96.5%;
+        height: 400px;
+        border-radius: 8px;
+        margin-left: 21px;
+        margin-top: 30px;
+      }
+      #video{
+        width: 100%;
+        height: 100%;
+      }
+      .card button {
+        background-color: rgb(46, 44, 44);
+        border-radius: 10px;
+        color: white;
+        margin-bottom: 20px;
+      }
+      .card h2{
+        text-transform: uppercase;
+      }
+      .card a{
+        margin-left: 15px;
+        color:rgb(7, 7, 7);
+      }
+      
+    </style>
+    </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="logo">
+          <div class="logo1">
+            <img
+              id="logo"
+              src="./image/logo for mav.png"
+              alt="logo"
+              width="100px"
+              height="70px" />
+          </div>
+
+          <div class="buttons">
+            <a href="">login</a>
+            <a href="">download app</a>
+            <a href="">cart</a>
+            <a href="">Support</a>
+          </div>
+        </div>
+
+        <div class="nav1">
+          <div class="buttons">
+            <a href="#">Home</a>
+            <a href="">pet services</a>
+            <a href="">pet insurance</a>
+            <a href="#shop">shop</a>
+            <a href="#about">about</a>
+            <a href="">Become a pet master</a>
+          </div>
+        </div>
+      </div>
+      <div class="herosection">
+        <div class="left">
+          <h1>𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓽𝓸 𝓐𝓷𝓲𝓬𝓪𝓭𝓸</h1>
+          <h4>
+            At Paws & Whiskers, we believe that every home deserves a loyal
+            companion. Whether you're looking for a playful puppy, a cuddly
+            kitten, or a friendly small animal, we have the perfect pet waiting
+            for you.
+          </h4>
+        </div>
+        <div class="right">
+          <img
+            src="./image/pet image/herosection-removebg-preview.png"
+            alt=""
+            width="300px" />
+        </div>
+      </div>
+
+      <div class="about" >
+        <div class="left-about"id="about">
+
+
+          <h2>Welcome to Anicado</h2>
+          
+          <p>
+            Welcome to Anicado, where the love for pets meets the
+            convenience of online shopping. At Anicado, we're 
+            dedicated to serving pet lovers like you by offering 
+            a wide range of high-quality products for your furry,
+            feathered, and scaled friends.
+          </p>
+        </div>
+        <div class="right-about">
+
+          <h2>Our Mission</h2>
+          
+          <p>
+            Our mission at Anicado is to provide pet owners with a seamless
+            shopping experience, offering everything you need to keep your beloved
+            companions happy, healthy, and entertained. From premium pet food and
+            treats to stylish accessories and essential supplies, we're here to
+            cater to all your pet care needs.
+          </p>
+        </div>
+
+      </div>
+      <div class="video">
+        <video id="video" src="./image/video/Introducing the best pet service in town Ani-Cado..mp4" muted autoplay loop></video>
+      </div>
+      <div class="carousel" id="shop">
+        <div class="card">
+          <img
+            src="./image/product/redbarn.jpg"
+            alt="Placeholder Image" />
+          <div class="card-content">
+            <h2 class="card-title" >Redbarn Bully Slices Original Flavor Dog Chew Treat</h2>
+            <p class="card-description">
+              price : RS200
+            </p>
+            <button style="width:80%; margin-left: 23px; margin-top: 10px;">add to cart</button>
+            <a href="https://www.redbarn.com/products/bully-slices-original-beef-flavor?variant=37971246907572" target="_blank">click to get more details...</a>
+
+            
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./image/product/P98225_NM_HardFloorCleaner_RTU_24oz_F_2000x.webp"
+            alt="Placeholder Image" />
+          <div class="card-content">
+            <h2 class="card-title">NATURE'S MIRACLE HARD FLOOR CLEANER & ODOR....</h2>
+            <p class="card-description">
+              Price : Rs300 
+            </p>
+            <button style="width:80%; margin-left: 23px; margin-top: 10px;">add to cart</button>
+            <a href="https://petfoodiela.com/products/natures-miracle-hard-floor-cleaner-odor-removal?_pos=1&_sid=645977c96&_ss=r" target="_blank">click to get more details...</a>
+
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./image/product/imageedit_35_7699225482_2000x.avif"
+            alt="Placeholder Image" />
+          <div class="card-content">
+            <h2 class="card-title">VITAL ESSENTIALS CHICKEN FREEZE-DRIED....</h2>
+            <p class="card-description">
+            price: RS 500  
+            </p>
+            <button style="width:80%; margin-left: 23px; margin-top: 10px;">add to cart</button>
+            <a href="https://petfoodiela.com/products/vital-essentials-chicken-breast-freeze-dried-grain-free-treats-1oz?_pos=2&_sid=75fc93c44&_ss=r" target="_blank">click to get more details...</a>
+
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./image/product/product 4.webp"
+            alt="Placeholder Image" />
+          <div class="card-content">
+            <h2 class="card-title">The Puppy KONG dog toy is customized for...</h2>
+            <p class="card-description">
+            price : Rs 700  
+            </p>
+            <button style="width:80%; margin-left: 23px; margin-top: 10px;">add to cart</button>
+            <a href="">click to get more details...</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <h2>contact details</h2>
+        <li>Email:-anicado574@gmail.com</li>
+        <li>Contact Number:6205451180 / 8092793196</li>
+        <p>&copy; 2024</p>
+      </div>
+    </div>
+  </body>
+</html>
